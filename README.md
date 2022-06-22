@@ -1,0 +1,12 @@
+<!-- ### Pandas CheatSheet -->
+
+### Seaborn CheatSheet
+- [LM Plot](https://seaborn.pydata.org/examples/anscombes_quartet.html)
+- [Scatter Plot](https://seaborn.pydata.org/examples/different_scatter_variables.html)
+- [Line Plot](https://seaborn.pydata.org/examples/errorband_lineplots.html)
+- [Dis Plot](https://seaborn.pydata.org/examples/faceted_histogram.html)
+- [Hist Plot](https://seaborn.pydata.org/examples/grouped_boxplot.html)
+- [Box Plot](https://seaborn.pydata.org/examples/grouped_boxplot.html)
+- [Horizontal Bar Plot](https://seaborn.pydata.org/examples/part_whole_bars.html)
+- [Annotated Heatmaps](https://seaborn.pydata.org/examples/spreadsheet_heatmap.html)
+<!-- ### Scikit-learn Cheatsheet -->
