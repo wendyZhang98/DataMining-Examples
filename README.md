@@ -1,5 +1,9 @@
 <!-- ### Pandas CheatSheet -->
 
+### Concepts
+[What is the difference between drawing plots using plot, axes or figure in matplotlib?](https://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl)
+
+
 ### Seaborn CheatSheet
 
 <img width="546" alt="Screen Shot 2022-06-23 at 10 25 25" src="https://user-images.githubusercontent.com/49216429/175323018-6eccc35a-5829-4b4b-936c-1ad4f462b230.png">
