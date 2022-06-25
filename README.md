@@ -12,6 +12,13 @@
 ### Seaborn CheatSheet
 <img width="546" alt="Screen Shot 2022-06-23 at 10 25 25" src="https://user-images.githubusercontent.com/49216429/175323018-6eccc35a-5829-4b4b-936c-1ad4f462b230.png">
 
+Plotting Functions
+- [Visualizing Statistical Relationships](https://seaborn.pydata.org/tutorial/relational.html)
+1) Scatter plots: Relate Variables
+2) Line Plots: Emphasize Continuity
+3) Line Plots with Confidence Interval: Aggregation and Representing Uncertainty
+4) FacetGrid: Relationship between two variables depending on more than one other variable
+
 Example Gallery
 - [LM Plot](https://seaborn.pydata.org/examples/anscombes_quartet.html)
 - [Scatter Plot](https://seaborn.pydata.org/examples/different_scatter_variables.html)
