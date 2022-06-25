@@ -19,6 +19,35 @@ Plotting Functions
 3) Line Plots with Confidence Interval : Aggregation and Representing Uncertainty
 4) FacetGrid [relplot(x=?, y=?, hue=?, col=?, data=data)] : Relationship between two variables depending on more than one other variable
 
+- [Visualize Distributions of Data](https://seaborn.pydata.org/tutorial/distributions.html)
+1) Plot Univariate Histograms
+2) Kernel Density Estimation
+3) Empirical Cumulative Distributions
+4) Visualize Bivariate Distributions
+5) Distribution Visualization in other settings
+
+- [Plot with Categorical Data](https://seaborn.pydata.org/tutorial.html)
+1) Categorical Scatterplots
+2) Distribution of Observations within Categories
+3) Statistical Estimation within Categories
+4) Plot "wide-form" data
+5) Show Multiple Relationships with Facets
+
+- [Visualize Regression Models](https://seaborn.pydata.org/tutorial/regression.html)
+1) Functions to Draw Linear Regression Models
+2) Fitting Different Kinds of Models
+3) Condition on Other Variables
+4) Control the Size and Shape of the plot
+5) Plot a regression in other contexts
+
+
+[Plotting Aesthetics](https://seaborn.pydata.org/tutorial/aesthetics.html)
+- Figure Stypes
+- Remove Axes Spines
+- Temporarily Set Figure Style
+- Override Elements of Seaborn Styles
+- Scale Plot Elements
+
 Example Gallery
 - [LM Plot](https://seaborn.pydata.org/examples/anscombes_quartet.html)
 - [Scatter Plot](https://seaborn.pydata.org/examples/different_scatter_variables.html)
