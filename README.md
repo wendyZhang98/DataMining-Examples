@@ -20,9 +20,9 @@ Plotting Functions
 4) FacetGrid [relplot(x=?, y=?, hue=?, col=?, data=data)] : Relationship between two variables depending on more than one other variable
 
 - [Visualize Distributions of Data](https://seaborn.pydata.org/tutorial/distributions.html)
-1) Plot Univariate Histograms
-2) Kernel Density Estimation
-3) Empirical Cumulative Distributions
+1) Plot Univariate Histograms [displot(data=?, x=?, bins=?, binwidth=?, hue=?, cols=?, stat=?)] : Most common approach to visualize a distribution
+2) Kernel Density Estimation [distplot(data=?, x=?, kind="kde", bw_adjust=?, hue=?)] : The smoothed histogram that aims to approximate the underlying probability function; 
+3) Empirical Cumulative Distributions [distplot(data=?, x=?, kind="ecdf")]
 4) Visualize Bivariate Distributions
 5) Distribution Visualization in other settings
 
