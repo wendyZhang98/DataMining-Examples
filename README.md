@@ -23,12 +23,12 @@ Plotting Functions
 1) Plot Univariate Histograms [displot(data=?, x=?, bins=?, binwidth=?, hue=?, cols=?, stat=?)] : Most common approach to visualize a distribution
 2) Kernel Density Estimation [distplot(data=?, x=?, kind="kde", bw_adjust=?, hue=?)] : The smoothed histogram that aims to approximate the underlying probability function; 
 3) Empirical Cumulative Distributions [distplot(data=?, x=?, kind="ecdf")]
-4) Visualize Bivariate Distributions
-5) Distribution Visualization in other settings
+4) Visualize Bivariate Distributions [distplot(data=?, x=?, y=?)] : work like a heatmap(count) or a contourline(pdf)
+5) Distribution Visualization in other settings [joinplot(data=?, x=?, y=?, kind=?)] : augment a bivariate relational or distribution plot with the margin distributions of the two variables; [pairplot(data)]: visualize the univariate distribution of all variables in a dataset along with all of their pairwise relationships
 
-- [Plot with Categorical Data](https://seaborn.pydata.org/tutorial.html)
-1) Categorical Scatterplots
-2) Distribution of Observations within Categories
+- [Plot with Categorical Data](https://seaborn.pydata.org/tutorial/categorical.html)
+1) Categorical Scatterplots [catplot(x=?, y=?, data=?, hue=?, kind=?)] : scatterplot
+2) Distribution of Observations within Categories [catplot(kind="box")] : boxplot shows the three quartile values of the distribution along with extreme values. 
 3) Statistical Estimation within Categories
 4) Plot "wide-form" data
 5) Show Multiple Relationships with Facets
