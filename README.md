@@ -1,8 +1,12 @@
 # Data Manipulation
 
 ## Pandas CheatSheet
-<img width="779" alt="Screen Shot 2022-07-27 at 16 29 31" src="https://user-images.githubusercontent.com/49216429/181366228-4201a8f9-0f85-4d5d-88ec-b31004330f36.png">
-<img width="782" alt="Screen Shot 2022-07-27 at 16 29 13" src="https://user-images.githubusercontent.com/49216429/181366182-076dd6f9-2f1b-4f12-8908-6837c69f9a0a.png">
+<img width="1098" alt="Screen Shot 2022-07-27 at 16 41 18" src="https://user-images.githubusercontent.com/49216429/181368119-a0cf987a-c907-41cc-a046-d2c855fd58d8.png">
+
+<img width="1098" alt="Screen Shot 2022-07-27 at 16 41 28" src="https://user-images.githubusercontent.com/49216429/181368149-f32708dd-ef21-4bf6-929a-a5683a21893b.png">
+
+https://www.webpages.uidaho.edu/~stevel/cheatsheets/Pandas%20DataFrame%20Notes_12pages.pdf
+
 
 
 # Data Visualization
@@ -13,9 +17,13 @@
 - axes: like a sort of Swiss Army Knife, a handy object that offers a tool for everything (eg: .plot; .scatter; .hist etc); can place one, two, ... many axes inside a figure using one of many different methods 
 - the plt interface: the plt procedural interface was originally developed to mimic the MATLAB interface, but is not really different from the object oriented interface, even if we don't make direct reference to the main objects (figure, axes) these objects are automatically instantiated and each plt method is translated to a call of one of the methods of the underlying fundamental objects (eg: plt.plot is a hidden_axes.plot; plt.savefig is a hidden_figure.savefig)
 
+## Matplotlib CheatSheet
+<img width="1175" alt="Screen Shot 2022-07-27 at 16 46 00" src="https://user-images.githubusercontent.com/49216429/181368960-eef25f5c-7a67-4495-a058-a0f86cc7d9eb.png">
+
+<img width="1179" alt="Screen Shot 2022-07-27 at 16 46 18" src="https://user-images.githubusercontent.com/49216429/181369001-d4f0a83c-f544-4892-8d74-c1da5d8547a3.png">
 
 ## Seaborn CheatSheet
-<img width="1241" alt="Screen Shot 2022-07-27 at 16 33 26" src="https://user-images.githubusercontent.com/49216429/181366792-692aebaa-e1fa-491b-ae1f-949fc30af07b.png">
+<img width="1181" alt="Screen Shot 2022-07-27 at 16 43 16" src="https://user-images.githubusercontent.com/49216429/181368462-070f635a-b9c7-4c5e-8a39-91cbea185b10.png">
 
 <img width="546" alt="Screen Shot 2022-06-23 at 10 25 25" src="https://user-images.githubusercontent.com/49216429/175323018-6eccc35a-5829-4b4b-936c-1ad4f462b230.png">
 
