@@ -1,0 +1,46 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+# Set the URL you want to scrape from
+URL = 'https://movie.douban.com/top250'
+
+# Set headers to mimic a typical browser request
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+
+# Connect to the website and fetch the page content
+response = requests.get(URL, headers=headers)
+response.raise_for_status()
+
+# Parse the page content with BeautifulSoup
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# Find the main table (this assumes there's one main table on the page)
+table = soup.find('ol', class_='grid_view')  # This might need to be adjusted based on the page's structure
+
+# Iterate through rows in the table and extract desired data
+movie_data = []
+for movie_item in table.find_all('li'):
+    title = movie_item.find('span', class_='title').text
+    rating = movie_item.find('span', class_='rating_num').text
+    try:
+        description = movie_item.find('span', class_='inq').text
+    except AttributeError:  # Some movies might not have a description
+        description = None
+    movie_data.append({
+        'Title': title,
+        'Rating': rating,
+        'Description': description
+    })
+
+# Convert to DataFrame
+df = pd.DataFrame(movie_data)
+
+# Print the DataFrame
+print(df)
+
+# Optionally, save to CSV or Excel
+# df.to_csv('douban_movies.csv', index=False)
+# df.to_excel('douban_movies.xlsx', index=False)
